@@ -9,7 +9,7 @@ const userController = {
   },
   //帳號密碼核對會在passport
   signIn: (req, res) => {
-    req.flash('success_messages', '成功登入！')
+    req.flash('success_messages', '成功登入啦！')
     res.redirect('/tweets')
   },
   signUpPage: (req, res) => {
